@@ -45,7 +45,9 @@ async function StaticImageRender(sourceBuffer, watermarkBuffer, options) {
     }
     compositeBuffer = await composite.composite([{
         input: watermarkNewBuffer,
-        gravity: options.gravity
+        gravity: options.gravity,
+        top: options.top,
+        left: options.left
     }]).toBuffer();
     // fs.writeFileSync(path.join(process.cwd(), 'watermarkBuffer1.png'), watermarkNewBuffer);
     // fs.writeFileSync(path.join(process.cwd(), 'watermarkBuffer2.png'), compositeBuffer);

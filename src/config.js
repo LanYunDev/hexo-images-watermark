@@ -20,5 +20,7 @@ module.exports = {
     fontPath: undefined,
     bigSkip: true,
     directory: ['posts'],
-    cache: false
+    cache: false,
+    top: undefined,
+    left: undefined
 };
