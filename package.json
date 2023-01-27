@@ -19,7 +19,7 @@
     "watermark",
     "local"
   ],
-  "author": "SpiritLing",
+  "author": "zengkunrui",
   "license": "GPL-3.0-only",
   "engines": {
     "node": ">=10"
