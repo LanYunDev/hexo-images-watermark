@@ -1,6 +1,6 @@
 {
   "name": "hexo-images-watermark-pro",
-  "version": "2.4.0",
+  "version": "2.3.1",
   "description": "用于Hexo构建静态博客时，本地对文章图片添加水印",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "https",
-    "url": "https://github.com/kunrui/hexo-images-watermark"
+    "url": "https://github.com/LanYunDev/hexo-images-watermark"
   },
   "bugs": {
     "url": "https://github.com/kunrui/hexo-images-watermark/issues"
@@ -19,20 +19,20 @@
     "watermark",
     "local"
   ],
-  "author": "zengkunrui",
+  "author": "SpiritLing",
   "license": "GPL-3.0-only",
   "engines": {
-    "node": ">=10"
+    "node": ">=18"
   },
   "devDependencies": {
-    "eslint": "^7.3.1"
+    "eslint": "^8.48.0"
   },
   "dependencies": {
-    "fs-extra": "^9.0.1",
-    "gifwrap": "^0.9.2",
-    "jimp": "^0.14.0",
-    "minimatch": "^3.0.4",
-    "sharp": "^0.31.3",
+    "fs-extra": "^11.1.1",
+    "gifwrap": "^0.10.1",
+    "jimp": "^0.22.10",
+    "minimatch": "^9.0.3",
+    "sharp": "^0.32.5",
     "svg2png": "^4.1.1",
     "text-to-svg": "^3.1.5"
   }
