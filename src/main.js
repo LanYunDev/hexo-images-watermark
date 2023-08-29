@@ -3,8 +3,8 @@
 const defaultOptions = require('./config');
 const utils = require('./utils');
 // const svg2png = require('svg2png');
-const { Resvg } = require('@resvg/resvg-js')
-const minimatch = require('minimatch');
+const { Resvg } = require('@resvg/resvg-js');
+const { minimatch } = require ('minimatch');
 const fs = require('fs-extra');
 const GifUtil = require('gifwrap').GifUtil;
 const StaticImageRender = require('./render/static');
