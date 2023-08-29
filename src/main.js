@@ -2,7 +2,8 @@
 
 const defaultOptions = require('./config');
 const utils = require('./utils');
-const svg2png = require('svg2png');
+// const svg2png = require('svg2png');
+const { Resvg } = require('@resvg/resvg-js')
 const minimatch = require('minimatch');
 const fs = require('fs-extra');
 const GifUtil = require('gifwrap').GifUtil;
@@ -68,7 +69,8 @@ async function ImageWatermark() {
             watermarkBuffer = await utils.GetWatermarkImageBuffer(allImgFiles, options.watermarkImage, route);
         } else {
             const svgBuffer = utils.text2svg(options);
-            watermarkBuffer = await svg2png(svgBuffer);
+            watermarkBuffer = new Resvg(svgBuffer).render().asPng()
+            // watermarkBuffer = await svg2png(svgBuffer);
         }
         /**
          * 静态图片渲染

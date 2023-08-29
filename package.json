@@ -1,5 +1,5 @@
 {
-  "name": "hexo-images-watermark-pro",
+  "name": "hexo-images-watermark-fix",
   "version": "2.3.1",
   "description": "用于Hexo构建静态博客时，本地对文章图片添加水印",
   "main": "index.js",
@@ -33,7 +33,7 @@
     "jimp": "^0.22.10",
     "minimatch": "^9.0.3",
     "sharp": "^0.32.5",
-    "svg2png": "^4.1.1",
+    "@resvg/resvg-js": "^2.4.1",
     "text-to-svg": "^3.1.5"
   }
 }

@@ -1,10 +1,12 @@
+## 前言
+
+提高依赖版本,将svg2png换为@resvg/resvg-js.修复sharp版本问题.
+
 <div align="center">
 
 # hexo-images-watermark
 
 ![favico](./public/images/android-chrome-192x192.png)
-
-[![Build Status](https://travis-ci.com/SpiritLingPub/hexo-images-watermark.svg?branch=master)](https://travis-ci.com/SpiritLingPub/hexo-images-watermark) [![npm version](https://img.shields.io/npm/v/hexo-images-watermark?label=npm%20version)](https://www.npmjs.com/package/hexo-images-watermark) [![npm package download](https://img.shields.io/npm/dm/hexo-images-watermark?label=npm%20downloads)](https://www.npmjs.com/package/hexo-images-watermark) [![NPM License](https://img.shields.io/npm/l/hexo-images-watermark)](https://spdx.org/licenses/GPL-3.0-only.html)
 
 </div>
 
@@ -19,13 +21,13 @@
 使用 `npm` 安装插件
 
 ```shell
-npm install hexo-images-watermark
+npm install hexo-images-watermark-fix
 ```
 
 使用 `yarn` 安装插件
 
 ```shell
-yarn add hexo-images-watermark
+yarn add hexo-images-watermark-fix
 ```
 
 在站点配置文件 `_config.yml` 中进行如下配置：
